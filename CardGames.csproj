@@ -74,7 +74,12 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\**\*.cs" />
+    <Compile Include="src\GameLogic\Card.cs" />
+    <Compile Include="src\GameLogic\Deck.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="src\GameLogic\Snap.cs" />
+    <Compile Include="src\SnapGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SwinGame">
