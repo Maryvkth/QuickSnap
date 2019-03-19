@@ -12,7 +12,7 @@ namespace CardGames
             cards = SwinGame.LoadBitmapNamed ("Cards", "Cards.png");
             SwinGame.BitmapSetCellDetails (cards, 82, 110, 13, 5, 53);      // set the cells in the bitmap to match the cards
 			SwinGame.LoadFontNamed ("GameFont", "chunkfive.regular.otf", 24);
-			SwinGame.LoadSoundEffectNamed ("Slap", "yes-2.wav");
+			SwinGame.LoadSoundEffectNamed ("Slap", "lalala.wav");
 			SwinGame.LoadSoundEffectNamed ("Sound", "you-got-it-2.wav");
         }
 

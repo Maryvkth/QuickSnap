@@ -123,10 +123,7 @@
     <None Include="Resources\fonts\chunkfive.regular.otf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\sounds\yes-2.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\sounds\you-got-it-2.wav">
+    <None Include="Resources\sounds\lalala.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
